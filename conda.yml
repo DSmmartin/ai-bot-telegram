@@ -1,0 +1,12 @@
+name: ai-bot-telegram
+
+channels:
+  - conda-forge
+
+
+dependencies:
+  - python=3.9.6
+  - pip=21.1.2
+
+  - pip:
+    - pyTelegramBotAPI==3.8.1
