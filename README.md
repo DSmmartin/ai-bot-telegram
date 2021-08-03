@@ -15,7 +15,7 @@ Run the following commands
 ```
 conda env create -f conda.yml
 conda activate ai-bot-telegram
-git clone -b v1.3.0 https://github.com/facebookresearch/ParlAI.git ./parlai
+git clone https://github.com/facebookresearch/ParlAI.git ./parlai
 cd ./parlai
 python setup.py develop
 ```
@@ -24,7 +24,7 @@ python setup.py develop
 
 
 ```
- parlai interactive -mf zoo:blenderbot2/blenderbot2_400M/model --search-server relevant_search_server
+parlai interactive -mf zoo:blenderbot2/blenderbot2_400M/model --search-server relevant_search_server
 ```
 
 
