@@ -1,0 +1,1 @@
+python parlai/scripts/interactive_web.py --task twitter --model-file zoo:blender/blender_90M/model
